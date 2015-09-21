@@ -1,0 +1,74 @@
+---
+layout: default
+format: page-fullwidth
+---
+{% if page.image.title %}
+<div class="row t30">
+	<div class="small-12 columns">
+		<img src="{{ site.urlimg }}/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
+		{% if page.image.caption_url && page.image.caption %}
+		<p class="text-right caption">
+			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+		</p>
+		{% endif %}
+	</div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+{% endif %}
+
+
+<div class="row t30">
+	<div class="medium-12 columns">
+
+		<article>
+			<header>
+				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+				{% if page.info.stage == "bsc" %}<p class="subheadline">Praca inżynierska</p>{% endif %}
+				{% if page.info.stage == "msc" %}<p class="subheadline">Praca magisterska</p>{% endif %}
+				<h1>{{ page.title }}</h1>
+			</header>
+			
+			{% if page.info.start %}
+			Rozpoczęcie: {{ page.info.start }}<br>
+			{% endif %}
+
+			{% if page.info.koniec %}
+			Obrona: {{ page.info.koniec }}<br>
+			{% endif %}
+			
+			{% if page.info.supervisor == "twiniarski" %}
+			Promotor: Tomasz Winiarski<br>
+			{% endif %}
+			
+			{% if page.info.supervisor == "wszynkiewicz" %}
+			Promotor: Wojciech Szynkiewicz<br>
+			{% endif %}
+			
+			{% if page.info.abstract %}
+			<p class="teaser" itemprop="description">
+				{{ page.info.abstract }}
+			</p>
+			{% endif %}
+			
+			
+			{% if page.info.movie %}
+			{% for post in site.categories.video %}
+			{% if post.tags contains page.info.movie %}
+			<br>
+			<div class="flex-video widescreen vimeo">{{ post.movie.iframe }}</div>
+			{% endif %}
+			{% endfor %}
+			{% endif %}
+			<!---
+			{% if page.info.redmine %}
+			<a href="https://robotyka.ia.pw.edu.pl/redmine/projects/{{ page.info.redmine }}">Projekt Redmine</a>
+			{% endif %}
+			-->
+			<br><br>
+			{% if page.info.koniec %}
+			{% bibliography --query @*[author ~= {{page.info.surname}} && twiki ~= {{page.info.stage}}] %}
+			{% endif %}
+			{{ content }}
+		</article>
+
+	</div><!-- /.medium-12.columns -->
+</div><!-- /.row -->

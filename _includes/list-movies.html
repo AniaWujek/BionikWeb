@@ -1,0 +1,14 @@
+{% comment %}
+*   
+*   This include lets you loop through a movies to list
+*   all entries in that collection.
+*
+*   Example: {% include list-movies.html tag='velma' %}
+*   
+{% endcomment %}
+
+{% for post in site.categories.video %}
+  {% if post.tags contains include.tag %}
+<div class="flex-video widescreen vimeo">{{ post.movie.iframe }}</div>
+  {% endif %}
+{% endfor %}

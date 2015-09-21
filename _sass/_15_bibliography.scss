@@ -1,0 +1,43 @@
+/* TOC
+
+- Bibliography
+
+*/
+
+
+
+/* Bibliography
+------------------------------------------------------------------- */
+
+.csl-author {
+}
+
+.csl-title {
+  font-weight: bold;
+}
+
+.csl-rest {
+  font-size: $font-size-small;
+  color: $grey-8;
+}
+
+.csl-abstract {
+  display: none;
+}
+
+/* Image Thumbnails */
+.photo-round {
+  line-height: 0;
+  display: inline-block;
+  border: $thumb-border-style $thumb-border-width $thumb-border-color;
+  max-width: 100%;
+  box-shadow: $thumb-box-shadow;
+  @include radius(25%);
+}
+
+/* Other
+------------------------------------------------------------------- */
+
+.small-name {
+  font-family: 'Ubuntu Condensed', sans-serif
+}
