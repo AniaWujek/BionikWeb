@@ -15,6 +15,7 @@
   side: left
 
 - title: Projects
+  url: "/projects/"
   side: left
   dropdown:
    - title: "Scientific projects"

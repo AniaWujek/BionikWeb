@@ -11,6 +11,8 @@
 title: "KNR Bionik"
 
 
+
+
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: ""
 
@@ -53,7 +55,8 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: pygments
-excerpt_separator: "\n\n"
+#excerpt_separator: "\n\n"
+excerpt_separator: <!--more-->
 exclude: []
 include: ['.htaccess']
 
