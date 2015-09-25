@@ -15,7 +15,8 @@ permalink: "/activities/"
   {% for post in sorted_pages%}
     <li>
       <div style="font-size: 150%; font-weight: bold">{{ post.title }}</div>
-      {{ post.excerpt }}
+      <div style="font-style: italic">{{ post.date | date: '%B %d, %Y' }}</div>
+      {{ post.excerpt }}      
       <a href="{{ post.url }}">Read more...</a>
       {% if post.image.thumb %}
        <p><center><img class="text-center photo-round" style="height: 200px" src="{{ site.urlimg }}/activities/{{ post.image.thumb }}" /><br /></center></p>
