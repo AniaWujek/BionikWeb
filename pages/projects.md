@@ -1,43 +1,24 @@
 ---
 layout: page-fullwidth
 show_meta: false
-subheadline: "Team"
+subheadline: "Projekty"
 breadcrumb: true
-title: "Projects"
-teaser: "Our research activity"
+title: "Projekty"
+teaser: "Aktualne projekty, do których można (trzeba!) dołączać!"
 #header:
 #   image_fullwidth: "headers/header_rubik_2.jpg"
 permalink: "/projects/"
 ---
-{% assign sorted_pages = (site.categories.project) %}
+{% assign sorted_pages = (site.categories.projects) %}
 <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
     {% for project in sorted_pages %}
-    {% if project.info.featured %}
-    <li>
-    <a href="{{ site.url }}{{ project.url }}"><img src="{{ site.urlimg }}/projects/{{ project.image.thumb }}" alt="" /></a>
+    <li>    
+    {% if project.image.thumb %}
+    <p><center><img class="text-center photo-round" style="height: 200px" src="{{ site.urlimg }}/projects/{{ project.image.thumb }}" /><br /></center></p>
+    {% endif %}
     <div style="font-size: 150%; font-weight: bold">{{ project.title }}</div>
     <p style="font-size: 90%">{{ project.teaser }}</p>
-    {% if project.info.full %}
-    <div class="text-right"><a href="{{ site.url }}{{ project.url }}">More...</a></div>
-    {% endif %}
+    <a href="{{ project.url }}">Więcej...</a>
     </li>
-    {% endif %}
     {% endfor %}
 </ul>
-
-{% for i in (2007..2015) reversed %}
-{{ i }}
-----
-<ul>
-{% for post in sorted_pages %}
-  {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-  {% assign yy = year | plus: 0 %}
-  {% if i == yy %}
-  <li>
-    <p>{{ post.title }}</p>
-    <p>{{ post.teaser }}</p>
-  </li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endfor %}

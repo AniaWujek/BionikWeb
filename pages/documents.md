@@ -3,7 +3,7 @@ layout: page-fullwidth
 show_meta: false
 subheadline: ""
 breadcrumb: true
-title: "Download documents"
+title: "Dokumenty do Pobrania"
 teaser: ""
 #header:
 #   image_fullwidth: "headers/header_rubik_2.jpg"
@@ -17,6 +17,5 @@ permalink: "/documents/"
   {% endfor %}
 </ul> -->
 
-[Regulations of "Bionik"]({{ site.url }}/docs/regulamin.pdf)<br>
-[Application for "Bionik"]({{ site.url }}/docs/regulamin.pdf)<br>
-[Declaration of "Bionik" member]({{ site.url }}/docs/regulamin.pdf)<br>
+[Regulamin KNR "Bionik"]({{ site.url }}/docs/regulamin.pdf){:target="_blank"}<br>
+[Logo KNR "Bionik"]({{ site.url }}/assets/img/logo.png){:target="_blank"}<br>

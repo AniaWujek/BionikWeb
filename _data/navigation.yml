@@ -2,32 +2,31 @@
   url: "/"
   side: left
   
-- title: About us
+- title: O nas
   url: "/aboutus/" 
   side: left
   
-- title: Team
-  url: "/team/" 
-  side: left
+#- title: Ludzie
+#  url: "/team/" 
+#  side: left
   
-- title: Documents
+- title: Do pobrania
   url: "/documents/" 
   side: left
 
-- title: Projects
+- title: Projekty
   url: "/projects/"
   side: left
-  dropdown:
-   - title: "Scientific projects"
-     url: "/projects/"
-   - title: "Events"
-     url: "/events/"
+
+- title: "Wydarzenia"
+  url: "/events/"
+  side: left
   
-- title: Robots
+- title: Roboty
   url: "/robots/"
   side: left
 
-- title: Activities
+- title: Aktualności
   url: "/activities/"
   side: left
 
@@ -100,6 +99,6 @@
   #url: "/search/"
   #side: right
 
-- title: "Contact"
+- title: "Kontakt"
   url: "/contact/"
   side: right

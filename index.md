@@ -6,20 +6,20 @@
 #
 layout: frontpage
 header:
-   image_fullwidth: "headers/header_rubik.jpg"
+   image_fullwidth: "headers/header_rubik_2.jpg"
 widget-1:
-    title: "Who we are?"
+    title: "Kim jesteśmy?"
     url: 'aboutus'
-    text: 'Just a bunch of students living in a basement... building robots and stuff.'
+    text: 'Zrzeszamy studentów (i nie tylko), którzy chcą wziąć udział w ciekawych projektach, napisać pracę dyplomową z robotyki, poznać wyjątkowych ludzi.'
     image: aboutus/bionik.jpg
 widget-2:
-    title: "Research"
+    title: "Projekty"
     url: 'projects'
-    text: 'Bionik is a team of ambitious and creative people who are interested in robotics, programming and electronics.'
+    text: 'Zajmujemy się robotyką mobilną oraz manipulacyjną, mamy za sobą zakończone sukcesem projekty oparte na Arduino, a w dziedzinie robotów LEGO możemy nazwać się ekspertami.'
     image: projects/research.jpg
 widget-3:
-    title: "Activities"
+    title: "Aktualności"
     url: 'activities'
-    text: 'What is going on?'
+    text: 'Bądź na bieżąco!'
     image: activities/activities.jpg
 ---
