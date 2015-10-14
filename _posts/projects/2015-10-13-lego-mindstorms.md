@@ -1,15 +1,16 @@
 ---
 layout: page-fullwidth
 title:  "Roboty mobilne Mindstorm"
-subheadline:  "Roboty"
-teaser: "Nie tylko do zabawy."
+subheadline:  "Projekty"
+teaser: "Opis zestawów Lego Mindstorms oraz specyfikacje przykładowych robotów."
 breadcrumb: true
 tags:
     - projects
+    - finished
 categories:
     - projects
 image:
-    thumb: "mindstorms/bricks.jpg"
+    thumb: "mindstorms/test1.jpg"
 info:
     full: true
 ---
@@ -29,7 +30,8 @@ Ponieważ rdzeń konstrukcji jest oparty o klocki Lego, możliwe jest bardzo szy
 
 
 <h3>Przykładowe roboty śledzące linię</h3>
-<h4>Monia - Zespół: Katarzyna Mioduszewska i Dawid Dąbrowski </h4>
+<h4>Monia<br>
+Zespół: Katarzyna Mioduszewska i Dawid Dąbrowski </h4>
 
 <h5>Konstrukcja</h5>
 
@@ -43,7 +45,8 @@ Algorytm opierał się na regulatorze PID, z parametrami dobranymi na dokładne 
 <font size="2" color="gray"><center>Monia w trakcie przejazdu po planszy testowej</center></font>
 
 
-<h4>Test1 - Zespół: Przemysław Łada i Michał Klimczak</h4>
+<h4>Test1<br>
+Zespół: Przemysław Łada i Michał Klimczak</h4>
 
 <h5>Konstrukcja</h5>
 

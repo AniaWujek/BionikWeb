@@ -6,9 +6,9 @@
   url: "/aboutus/" 
   side: left
   
-#- title: Ludzie
-#  url: "/team/" 
-#  side: left
+- title: Ludzie
+  url: "/team/" 
+  side: left
   
 - title: Do pobrania
   url: "/documents/" 
@@ -18,9 +18,9 @@
   url: "/projects/"
   side: left
 
-- title: "Wydarzenia"
-  url: "/events/"
-  side: left
+#- title: "Wydarzenia"
+#  url: "/events/"
+#  side: left
   
 - title: Roboty
   url: "/robots/"
