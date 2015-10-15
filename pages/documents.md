@@ -19,3 +19,4 @@ permalink: "/documents/"
 
 [Regulamin KNR "Bionik"]({{ site.url }}/docs/regulamin.pdf){:target="_blank"}<br>
 [Logo KNR "Bionik"]({{ site.url }}/assets/img/logo.png){:target="_blank"}<br>
+[Wniosek o przyjęcie do Koła]({{ site.url }}/docs/wniosek.pdf){:target="_blank"}<br>

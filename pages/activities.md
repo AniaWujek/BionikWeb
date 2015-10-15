@@ -21,7 +21,7 @@ permalink: "/activities/"
       <p style="font-size: 90%">{{ post.teaser }}</p>
       <a href="{{ post.url }}">Więcej...</a>
       {% if post.image.thumb %}
-       <p><center><img class="text-center photo-round" style="height: 200px" src="{{ site.urlimg }}/activities/{{ post.image.thumb }}" /><br /></center></p>
+       <p><center><img class="text-center" style="max-height: 200px; max-width: 450px" src="{{ site.urlimg }}/activities/{{ post.image.thumb }}" /><br /></center></p>
       {% endif %}
       
     </li>

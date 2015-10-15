@@ -29,6 +29,10 @@
 - title: Aktualności
   url: "/activities/"
   side: left
+  
+- title: Współpraca
+  url: "/partnership/"
+  side: left
 
 
 #~ - title: "Templates"

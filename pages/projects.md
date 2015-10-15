@@ -17,7 +17,7 @@ permalink: "/projects/"
     {% else %}
     <li>    
     {% if project.image.thumb %}
-    <p><center><img class="text-center photo-round" style="height: 200px" src="{{ site.urlimg }}/projects/{{ project.image.thumb }}" /><br /></center></p>
+    <p><center><img class="text-center" style="height: 200px" src="{{ site.urlimg }}/projects/{{ project.image.thumb }}" /><br /></center></p>
     {% endif %}
     <div style="font-size: 150%; font-weight: bold">{{ project.title }}</div>
     <p style="font-size: 90%">{{ project.teaser }}</p>
@@ -34,7 +34,7 @@ permalink: "/projects/"
     {% if project.tags contains 'finished' %}
     <li>    
     {% if project.image.thumb %}
-    <p><center><img class="text-center photo-round" style="height: 200px" src="{{ site.urlimg }}/projects/{{ project.image.thumb }}" /><br /></center></p>
+    <p><center><img class="text-center" style="height: 200px" src="{{ site.urlimg }}/projects/{{ project.image.thumb }}" /><br /></center></p>
     {% endif %}
     <div style="font-size: 150%; font-weight: bold">{{ project.title }}</div>
     <p style="font-size: 90%">{{ project.teaser }}</p>

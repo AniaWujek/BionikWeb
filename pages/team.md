@@ -27,48 +27,66 @@ permalink: "/team/"
 </ul> -->
 <h4>Opiekun</h4>
 dr inż. Tomasz Winiarski
-<h4>Zarząd</h4>
+<h4>Zarząd 2015 - ...</h4>
 <ul>
-<li>Prezes: Maciej Węgierek</li>
-<li>Zastępca: Bartosz Świstak</li>
-<li>Sekretarz: Anna Wujek</li>
-<li>Członek zarządu ds. kontaktu z mediami: Katarzyna Olszewska</li>
+<li>Prezes - Maciej Węgierek</li>
+<li>Wiceprezes - Bartosz Świstak</li>
+<li>Sekretarz - Anna Wujek</li>
+<li>Członek zarządu ds. kontaktu z mediami - Katarzyna Olszewska</li>
+</ul>
+
+<h5>Zarząd 2014 - 2015</h5>
+<ul>
+<li>Prezes - Magdalena Kula</li>
+<li>Wiceprezes - Mikołaj Wiewióra</li>
+</ul>
+
+<h5>Zarząd 2010 - 2013</h5>
+<ul>
+<li>Prezes - Paweł Poławski</li>
+<li>Wiceprezes - Piotr Miedzik</li>
+</ul>
+
+<h5>Zarząd 2007 - 2010</h5>
+<ul>
+<li>Prezes - Paweł Poławski</li>
+<li>Wiceprezes - Krystian Marek</li>
+</ul>
+
+<h5>Zarząd 2006 - 2007</h5>
+<ul>
+<li>Prezes - Michał Walęcki</li>
+<li>Wiceprezes - Bartosz Markocki</li>
 </ul>
 
 <h4>Koordynatorzy projektów</h4>
 <ul>
-<li>Lider sekcji <a href="{{ site.url }}/projects/arduino/">Arduino</a>: Bartosz Kaczor</li>
-<li>Koordynator <a href="http://bionikalia.pl" target="_blank">Bionikaliów 2015</a>: Izabela Dusza</li>
-<li>Koordynator projektu <a href="{{ site.url }}/projects/throw-bot/">ThrowBot</a>: Adam Kowalewski</li>
+<li>Lider sekcji <a href="{{ site.url }}/projects/arduino/">Arduino</a> - Bartosz Kaczor</li>
+<li>Koordynator <a href="http://bionikalia.pl" target="_blank">Bionikaliów 2015</a> - Izabela Dusza</li>
+<li>Koordynator projektu <a href="{{ site.url }}/projects/throw-bot/">ThrowBot</a> - Rafał Jagielski</li>
 </ul>
 
-<h4>Członkowie honorowi (czyli Ci, którzy technicznie nie są studentami, ale nie przeszkadza im to w aktywnej działalności w Kole)</h4>
+<h4>Aktywni członkowie</h4>
 <ul>
-<li>Maciej Stefańczyk </li>
-<li>Konrad Banachowicz </li>
-<li>Michał Walęcki</li>
-<li>Jan Figat</li>
-<li>Maksym Figat</li>
-</ul>
-
-<h4>Członkowie</h4>
-<ul>
+<li>Maciej Stefańczyk</li>
 <li>Adrian Brzozowski </li>
-<li>Aleksandra Karbarczyk</li>
-<li>Piotr Łukaszewicz</li>
-<li>Kamila Lis</li>
-<li>Klara Popławska</li>
-<li>Kinga Staszkiewicz</li>
-<li>Łukasz Korpal</li>
-<li>Magdalena Kula</li>
+<li>Daniel Giełdowski</li>
 <li>Przemysław Krajewski</li>
-<li>Mikołaj Kojdecki</li>
-<li>Radosław Białobrzeski</li>
-<li>Rafał Jagielski</li>
-<li>Tomasz Ferens</li>
+<li>Anna Wujek</li>
+<li>Katarzyna Olszewska</li>
+<li>Bartosz Świstak</li>
+<li>Łukasz Korpal</li>
+<li>Maciej Węgierek</li>
+<li>Magdalena Kula</li>
 <li>Adam Kowalewski</li>
-<li>Wojciech Świstak</li>
-<li>Michał Dębski</li>
-<li>Michał Kowalewski</li>
+<li>Bartosz Kaczor</li>
+<li>Aleksandra Karbarczyk</li>
+<li>Karolina Borkowska</li>
+<li>Kinga Staszkiewicz</li>
+<li>Tomasz Ferens</li>
+<li>Piotr Łukaszewicz</li>
+<li>Karol Niedzielewski</li>
+
 </ul>
+
 
