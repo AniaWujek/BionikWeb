@@ -15,6 +15,20 @@ info:
     full: true
 ---
 
+{% assign sorted_pages = (site.categories.followtheline) %}
+<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+    {% for robot in sorted_pages %}
+    <li>    
+    {% if robot.image.thumb %}
+    <p><center><a href="{{ robot.url }}"/><img class="text-center" style="height: 200px" src="{{ site.urlimg }}/projects/{{ robot.image.thumb }}" /><br /></center></p>
+    {% endif %}
+
+    <div style="font-size: 150%; font-weight: bold"><a href="{{ robot.url }}">{{ robot.title }}</a></div>
+    </li>       
+    {% endfor %}
+</ul>
+
+
 Najistotniejszą kwestią podczas budowy robota mobilnego przeznaczonego do startu w zawodach jest platforma sprzętowa. Powinna ona umożliwiać szybkie stworzenie prototypu konstrukcji, ułatwiać jego późniejsze modyfikacje oraz być na tyle elastyczna, aby można było bez dużych nakładów czasowych oraz pieniężnych rozszerzać konstrukcję o dodatkowe elementy. Wszystkie te cechy spełniają zestawy z serii Lego Minstorms NXT. Jest to kolejna generacja nowatorskiej serii RCX, wprowadzona na rynek w roku 2006 a następnie rozszerzana i odświeżana. Zestawy z serii Mindsotrms łączą klocki Lego (głównie z serii Lego Technic) z czujnikami elektronicznymi, serwomechanizmami oraz komputerową jednostką centralną. Pozwala to na konstruowanie z nich robotów praktycznie dowolnej ich klasy.<br>
 
 <p><center><img class="text-center" style="height: 350px" src="{{ site.urlimg }}projects/mindstorms/bricks.jpg"/></center></p>
