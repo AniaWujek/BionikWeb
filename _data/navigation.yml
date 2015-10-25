@@ -9,10 +9,7 @@
 - title: Ludzie
   url: "/team/" 
   side: left
-  
-- title: Do pobrania
-  url: "/documents/" 
-  side: left
+
 
 - title: Projekty
   url: "/projects/"
@@ -32,6 +29,10 @@
   
 - title: Współpraca
   url: "/partnership/"
+  side: left
+    
+- title: Do pobrania
+  url: "/documents/" 
   side: left
 
 

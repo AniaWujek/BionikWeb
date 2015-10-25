@@ -13,7 +13,7 @@ permalink: "/activities/"
 Śledźcie nasze działania na naszym profilu na facebook'u: [KNR "Bionik"](https://www.facebook.com/KNR.Bionik){:target="_blank"}<br>
 
 {% assign sorted_pages = (site.categories.activities) %}
-<ul>
+<ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-2">
   {% for post in sorted_pages%}
     <li>
       <div style="font-size: 150%; font-weight: bold">{{ post.title }}</div>

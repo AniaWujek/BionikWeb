@@ -2,7 +2,7 @@
 layout: page-fullwidth
 subheadline: 
 title:  "Współpraca z DPS Software"
-teaser: ""
+teaser: "Z wielką radością informujemy, że nawiązaliśmy współpracę z firmą DPS Software zajmującą się dostarczaniem systemów 3D."
 breadcrumb: true
 show_meta: false
 categories:
@@ -12,7 +12,7 @@ info:
 image: 
     thumb: "dps.jpg"
 ---
-Z wielką radością informujemy, że nawiązaliśmy współpracę z firmą DPS Software zajmującą się dostarczaniem systemów 3D . Dzięki oprogramowaniu SOLIDWORKS do zintegrowanego projektowania w 3D będziemy w stanie znacznie dokładniej tworzyć nasze konstrukcje. Przed nami szkolenia oraz wiele wiele godzin praktyki!<br>
+Dzięki oprogramowaniu SOLIDWORKS do zintegrowanego projektowania w 3D będziemy w stanie znacznie dokładniej tworzyć nasze konstrukcje. Przed nami szkolenia oraz wiele wiele godzin praktyki!<br>
 
 Ciekawe informacje na temat tego oprogramowania znajdziecie na:
 <ul>

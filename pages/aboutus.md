@@ -20,7 +20,7 @@ Co zrobić, aby dołączyć?
 <ul>
 <li>Przyjdź do 012 i zapytaj o nasze aktualne projekty - na pewno znajdziesz co dla siebie!</li>
 <li>Weź udział w jednym z organizowanych przez nas spotkań i wykładów</li>
-<li>Wypełnij wniosek o przyjęcie do Koła (otrzymasz go w 012) lub <a href="{{ site.url }}/docs/wniosek.pdf" target="_blank">tutaj</a></li>
+<li>Wypełnij wniosek o przyjęcie do Koła (otrzymasz go w 012 lub <a href="{{ site.url }}/docs/wniosek.pdf" target="_blank">tutaj)</a></li>
 </ul>
 
 Jeżeli:
